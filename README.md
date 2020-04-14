@@ -52,6 +52,7 @@ https://tasks.office.com/htl-salzburg.ac.at/Home/PlanViews/J9SrspBARUyo9DH4ex_Nk
 
 - better timemanagement 
 
+- keep calm if something doesn't work
 
 
 Copyright Alina Schneeberger:)
