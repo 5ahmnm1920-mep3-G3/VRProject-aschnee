@@ -32,7 +32,7 @@ VR Oculus Rift / HTC Vive
 https://assetstore.unity.com/packages/3d/vegetation/lowpoly-forest-pack-42578
 
 * Globe
-https://assetstore.unity.com/packages/3d/props/interior/school-globe-152072
+https://free3d.com/3d-model/globe-95457.html
 
 
 
