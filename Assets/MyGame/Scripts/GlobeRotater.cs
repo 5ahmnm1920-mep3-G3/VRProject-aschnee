@@ -5,6 +5,7 @@ public class GlobeRotater : MonoBehaviour
 {
     public Animation globeRotation;
     public AudioSource winAudio;
+    public AudioSource[] ambientAudio;
     public int crystalsCollected = 0;
     public KeyCode restartButton = KeyCode.Escape;
 
@@ -14,6 +15,11 @@ public class GlobeRotater : MonoBehaviour
         {
             globeRotation.Play();
             winAudio.Play();
+
+            foreach (AudioSource source in ambientAudio)
+            {
+                source.Pause();
+            }
         }
 
         if (Input.GetKeyDown(restartButton))
