@@ -7,7 +7,8 @@ public class CrystalPosition : MonoBehaviour
     [Range(0, 2)]
     public int correspondingCrystalIndex = 0;
 
- 
+    public Vector3 crystalOffset;
+    public Vector3 crystalRotation;
    
 
     private void OnTriggerEnter(Collider col)
@@ -25,7 +26,8 @@ public class CrystalPosition : MonoBehaviour
         Destroy(col.attachedRigidbody);
 
         // moving the crystal to its dedicated position
-        col.transform.position = this.transform.position; print("fuck");
+        col.transform.position = this.transform.position + crystalOffset;
+        col.transform.rotation = Quaternion.Euler(crystalRotation);
 
     }
 }
