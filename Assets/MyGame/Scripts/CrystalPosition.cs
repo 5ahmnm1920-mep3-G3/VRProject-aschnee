@@ -9,7 +9,13 @@ public class CrystalPosition : MonoBehaviour
 
     public Vector3 crystalOffset;
     public Vector3 crystalRotation;
-   
+
+    private GlobeRotater globeRotater;
+
+    private void Start()
+    {
+        globeRotater = FindObjectOfType<GlobeRotater>();
+    }
 
     private void OnTriggerEnter(Collider col)
     {
@@ -17,7 +23,6 @@ public class CrystalPosition : MonoBehaviour
         if (!col.CompareTag("c" + correspondingCrystalIndex.ToString())) return; print(col.name);
 
         // disable physics and interactable scripts
-        //col.GetComponent<Rigidbody>().
         Throwable throwable = col.GetComponent<Throwable>();
         Interactable interactable = col.GetComponent<Interactable>();
 
@@ -29,5 +34,8 @@ public class CrystalPosition : MonoBehaviour
         col.transform.position = this.transform.position + crystalOffset;
         col.transform.rotation = Quaternion.Euler(crystalRotation);
 
+
+        // add it to the globe counter
+        globeRotater.crystalsCollected++;
     }
 }
