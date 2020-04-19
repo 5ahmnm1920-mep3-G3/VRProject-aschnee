@@ -13,16 +13,6 @@ You will enter a world full of mystery and magic. The goal is it to collect thre
 ### Target platform:
 VR Oculus Rift / HTC Vive
 
-### Visuals:
-* Idea  	  
-<div>
-<img src="./Screenshots/Idee.JPG" width="300">
-</div>
-
-* Intermediate result 
-<div>
-<img src="./Screenshots/Zwischenstand.jpg" width="300">
-</div>
 
 ### Necessary setup/execution steps: 
 /
@@ -34,11 +24,21 @@ https://assetstore.unity.com/packages/3d/vegetation/lowpoly-forest-pack-42578
 * Globe
 https://free3d.com/3d-model/globe-95457.html
 
+* Crystals
+https://assetstore.unity.com/packages/3d/props/stylized-crystal-77275
+
+* Skull Altar
+https://www.cgtrader.com/free-3d-models/exterior/landscape/free-yeallow-rock-skull-gate
+
+* Music
+Background: https://www.youtube.com/watch?v=LUcY_lL54Fo
+Voice Sound Effect: https://www.youtube.com/watch?v=BXGI2aRZfrc
+Atmosphere: https://www.youtube.com/watch?v=4NRaQ8OC780
 
 
 
 ### Project state: 
-50%      
+100%      
      
      
 ### Time Plan
