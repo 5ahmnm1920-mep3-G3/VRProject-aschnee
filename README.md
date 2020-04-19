@@ -15,7 +15,7 @@ VR Oculus Rift / HTC Vive
 
 
 ### Necessary setup/execution steps: 
-/
+For the best experience, the player needs a VR Device (VR Oculus Rift or HTC Vive). Alternatively, you could use the 2D Debug mode to play the game on a normal 2D screen.
 
 ### Third party material:
 * environment
@@ -31,9 +31,9 @@ https://assetstore.unity.com/packages/3d/props/stylized-crystal-77275
 https://www.cgtrader.com/free-3d-models/exterior/landscape/free-yeallow-rock-skull-gate
 
 * Music
-Background: https://www.youtube.com/watch?v=LUcY_lL54Fo
-Voice Sound Effect: https://www.youtube.com/watch?v=BXGI2aRZfrc
-Atmosphere: https://www.youtube.com/watch?v=4NRaQ8OC780
+- Background: https://www.youtube.com/watch?v=LUcY_lL54Fo
+- Voice Sound Effect: https://www.youtube.com/watch?v=BXGI2aRZfrc
+- Atmosphere: https://www.youtube.com/watch?v=4NRaQ8OC780
 
 
 
